@@ -1,0 +1,33 @@
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFC8;
+}
+
+a {
+    color: #A4A400;
+}
+
+#copyright {
+    font-family: "Courier New", Arial;
+    font-size: 0.75em;
+    width: 231px;
+    text-align: right;
+}
+
+#footer {
+    margin-top: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+}

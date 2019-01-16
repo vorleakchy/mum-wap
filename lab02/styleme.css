@@ -1,0 +1,70 @@
+body {
+    font-family: Tahoma, Courier, Arial;
+    background-color: #595648;
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: Verdana, Georgia, Arial;
+    color: #9cc0f0;
+}
+
+a{
+    color: #ce686e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
+#header {
+    border-bottom: 1px solid #fff;
+}
+
+#header em {
+    color: #dce28d;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#favorite-movies {
+    counter-reset: movie-counter;
+}
+
+#favorite-movies > ol > li::before {
+    counter-increment: movie-counter;
+    content: "" counter(movie-counter) ". ";
+}
+
+#favorite-movies > ol {
+    transform: rotate(180deg);
+}
+#favorite-movies > ol > li {
+    transform: rotate(-180deg);
+}
+
+#favorite-movies > ol > li > dl {
+   margin: 2px 0 2px 20px;
+}
+
+#favorite-movies dl > dt {
+    color: #dce28d;
+}
+
+#my-moods > span::after {
+   content: " ";
+}
+
+#footer {
+    margin-top: 30px;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
