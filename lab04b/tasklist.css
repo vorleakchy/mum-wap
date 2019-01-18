@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #d1e0e1;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+}
+
+label {
+    display: block;
+}
+
+nav {
+    margin: 15px 0 10px 0;
+}
+
+nav a {
+    background: #53777a;
+    color: #fff;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;;
+}
+
+thead {
+    padding: 10px;
+}
+
+thead th {
+    background: #53777a;
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #888;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #eee;
+}
+
+#tblTasks {
+    margin-top: 20px;
+}
+
+select {
+    border: 1px solid #aaa;
+    margin-right: 15px;
+    width: 200px;
+    overflow: hidden;
+}
+
+input {
+    border-radius: 3px;
+    height: 24px;
+    border: 1px solid #aaa;
+    padding: 0 7px;
+}
+
+input.large {
+    width: 400px;
+}

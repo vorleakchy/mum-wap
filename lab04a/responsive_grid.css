@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+}
+
+nav a {
+    padding: 10px;
+    border-right: 1px solid black;
+    text-algin: center;
+}
+
+nav, footer {
+    background-color: darkgreen;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    padding: 20px;
+}
+
+main > div {
+    height: 300px;
+}
+
+#col1 {
+    background-color: #aaa;
+}
+
+#col2 {
+    background-color: #bbb;
+}
+
+#col3 {
+    background-color: #ccc;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        grid-template-columns: 50% 50%;
+    }
+
+    #col3 {
+        grid-column: 1/span 2;
+    }
+}

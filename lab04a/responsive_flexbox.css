@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+nav, footer {
+    background-color: darkgreen;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    padding: 20px;
+}
+
+main > div {
+    height: 300px;
+}
+
+#col1 {
+    background-color: #aaa;
+    flex-grow: 1;
+}
+
+#col2 {
+    background-color: #bbb;
+    flex-grow: 2;
+}
+
+#col3 {
+    background-color: #ccc;
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+}
