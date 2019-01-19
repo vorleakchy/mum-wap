@@ -50,3 +50,15 @@ main > div {
 main {
     display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+    #col1, #col3 {
+        width: 50%;
+    }
+
+    #col2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
