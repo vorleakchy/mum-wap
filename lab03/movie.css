@@ -52,6 +52,7 @@ h1 {
 
 .review {
     margin-bottom: 20pt;
+    display: inline-block;
 }
 
 .quotebox {
