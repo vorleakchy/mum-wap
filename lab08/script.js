@@ -65,11 +65,10 @@
     "use strict";
 
     const protoPerson = {
-        name: 'unknown'
-    };
-
-    protoPerson.teach = function(subject) {
-        console.log(this.name + " is now teaching " + subject);
+        name: 'unknown',
+        teach: function(subject) {
+            console.log(this.name + " is now teaching " + subject);
+        }
     };
 
     function personFactory(name) {
