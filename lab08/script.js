@@ -87,7 +87,7 @@
 (function() {
     "use strict";
 
-    const Person = {
+    const protoPerson = {
         name: "unknown",
         age: 0,
         greet: function() {
@@ -100,32 +100,45 @@
         }
     };
 
-    const Student = Object.create(Person);
-    Student.major = "unknown";
-    Student.greet = function() {
+    const protoStudent = Object.create(protoPerson);
+    protoStudent.major = "unknown";
+    protoStudent.greet = function() {
         console.log("Hey, my name is " + this.name + " and I am studying " + this.major);
     };
 
-    const Professor = Object.create(Person);
-    Professor.department = "unknown";
-    Professor.greet = function() {
+    function studentFactory(name, age, major) {
+        const student = Object.create(protoStudent);
+        student.name = name;
+        student.age = age;
+        student.major = major;
+        return student;
+    }
+
+    const protoProfessor = Object.create(protoPerson);
+    protoProfessor.department = "unknown";
+    protoProfessor.greet = function() {
         console.log("Good day," + "my name is " + this.name +
             " and I am in the " + this.department + " department.");
     };
 
+    function professorFactory(name, age, department) {
+        const professor = Object.create(protoProfessor);
+        professor.name = name;
+        professor.age = age;
+        professor.department = department;
+        return professor;
+    }
+
     console.log("\n----- Exercise 4, Prototype Object -----");
 
-    const student = Object.create(Student);
-    student.name  = "John";
-    student.major = "WAP";
+    const student = studentFactory("John", 26, "WAP");
     student.greet();
     student.salute();
 
-    const professor = Object.create(Professor);
-    professor.name = "Prof. Levi";
-    professor.department = "Computer Science";
+    const professor = professorFactory("Prof. Levi", 50, "Computer Science");
     professor.greet();
     professor.salute();
+    console.log(student);
 })();
 
 
@@ -145,8 +158,9 @@
             "good afternoon, good evening and good night!");
     };
 
-    const Student = function(name, age) {
-       Person.call(this, name, age);
+    const Student = function(name, age, major) {
+        this.major = major;
+        Person.call(this, name, age);
     };
     Student.prototype = Object.create(Person.prototype);
     Student.prototype.greet = function() {
@@ -155,23 +169,21 @@
 
     console.log("\n----- Exercise 4, Function Constructor -----");
 
-    const student = new Student("John", 26);
-    student.major = "WAP";
+    const student = new Student("John", 26, "WAP");
     student.greet();
     student.salute();
 
-    const Professor = function(name, age) {
+    const Professor = function(name, age, department) {
+        this.department = department;
         Person.call(this, name, age);
     };
     Professor.prototype = Object.create(Person.prototype);
-    Professor.prototype.department = "unknown";
     Professor.prototype.greet = function() {
         console.log("Good day," + "my name is " + this.name +
             " and I am in the " + this.department + " department.");
     };
 
-    const professor = new Professor("Prof. Levi");
-    professor.department = "Computer Science";
+    const professor = new Professor("Prof. Levi", 50, "Computer Science");
     professor.greet();
     professor.salute();
 })();
