@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <link href="tasks.css" type="text/css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+    <script src="tasks.js"></script>
+</head>
+<body>
+    <header>
+        <span>Task List</span>
+    </header>
+    <main>
+        <section id="taskCreation" class="not">
+            <form>
+                <div>
+                    <label>Task</label>
+                    <input type="text" required="required" name="task" class="large" placeholder="Breakfast at Tiffanys" />
+                </div>
+                <div>
+                    <label>Required by</label>
+                    <input type="date" required="required" name="requiredBy" />
+                </div>
+                <div>
+                    <label>Category</label>
+                    <select name="category">
+                        <option value="Personal">Personal</option>
+                        <option value="Work">Work</option>
+                    </select>
+                </div>
+                <nav>
+                    <a href="#" id="saveTask">Save task</a>
+                    <a href="#" id="clearTask">Clear task</a>
+                    <a href="#" id="btnPrintObject">Print object to console</a>
+                    <a href="#" id="btnLoadObject">Load object into console</a>
+                </nav>
+            </form>
+        </section>
+        <section>
+            <table id="tblTasks">
+                <colgroup>
+                    <col width="50%">
+                    <col width="25%">
+                    <col width="25%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Due</th>
+                        <th>Category</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Return library books</td>
+                        <td><time datetime="2013-10-14">2013-10-14</time></td>
+                        <td>Personal</td>
+                        <td>
+                            <nav>
+                                <a href="" class="editRow">Edit</a>
+                                <a href="" class="completeRow">Complete</a>
+                                <a href="" class="deleteRow">Delete</a>
+                            </nav>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td>Perform project demo to stakeholders</td>
+                        <td><time datetime="2013-10-14">2013-10-14</time></td>
+                        <td>Work</td>
+                        <td>
+                            <nav>
+                                <a href="" class="editRow">Edit</a>
+                                <a href="" class="completeRow">Complete</a>
+                                <a href="" class="deleteRow">Delete</a>
+                            </nav>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Meet friends for dinner</td>
+                        <td><time datetime="2013-10-14">2013-10-14</time></td>
+                        <td>Personal</td>
+                        <td>
+                            <nav>
+                                <a href="" class="editRow">Edit</a>
+                                <a href="" class="completeRow">Complete</a>
+                                <a href="" class="deleteRow">Delete</a>
+                            </nav>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav>
+                <a href="#" id="btnAddTask">Add task</a>
+            </nav>
+        </section>
+    </main>
+    <footer>You have 3 tasks</footer>
+
+    <script id="taskRow" type="text/x-jQuery-tmpl">
+        <tr>
+            <td>${task}</td>
+            <td><time datetime="${requiredBy}">${requiredBy}</time></td>
+            <td>${category}</td>
+            <td>
+                <nav>
+                    <a href="#">Edit</a>
+                    <a href="#">Complete</a>
+                    <a href="#" class="deleteRow">Delete</a>
+                </nav>
+            </td>
+        </tr>
+    </script>
+</body>
+</html>

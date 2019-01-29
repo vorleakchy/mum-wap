@@ -1,20 +1,20 @@
-var x = 10;
 
-function main() {
-    console.log("x1: " + x);
-    x = 20;
-
-    if (x > 0) {
-        var x = 30;
-        console.log("x2: " + x);
+x = 1;
+var a = 5;
+var b = 10;
+var c = function(a, b, c) {
+    var x = 10;
+    document.write(x);
+    document.write(a);
+    var f = function(a, b, c) {
+        b = a;
+        document.write(b);
+        b = c;
+        var x = 5;
     }
-
-    var x = 40;
-    var f = function(x) {
-        console.log("x3: " + x);
-    };
-
-    f(50);
+    f(a,b,c);
+    document.write(b);
 }
-
-main();
+c(8,9,10);
+document.write(b);
+document.write(x);

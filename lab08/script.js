@@ -138,7 +138,6 @@
     const professor = professorFactory("Prof. Levi", 50, "Computer Science");
     professor.greet();
     professor.salute();
-    console.log(student);
 })();
 
 
