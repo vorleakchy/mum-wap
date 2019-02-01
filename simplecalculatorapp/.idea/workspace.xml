@@ -7,9 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650bc5bc-204c-48b5-ad52-58b0a649804e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../beeradviser/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beeradviser/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsintro/.idea/artifacts/jsintro_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/numberquiz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/console/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/web/QuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/src/test/java/cs472/mum/edu/model/QuizTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../numberquiz/target/test-classes/META-INF/numberquiz.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../beeradviser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beeradviser/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beeradviser/web/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../beeradviser/web/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -57,8 +81,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="848" />
+    <option name="x" value="248" />
+    <option name="y" value="255" />
+    <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,7 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -119,12 +143,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548869196627" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -228,23 +254,25 @@
       <updated>1548810462091</updated>
       <workItem from="1548810466396" duration="13707000" />
       <workItem from="1548868690835" duration="526000" />
+      <workItem from="1549041416396" duration="320000" />
+      <workItem from="1549041835489" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14233000" />
+    <option name="totallyTimeSpent" value="14814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49808916" visible="true" weight="0.13662376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4955414" visible="true" weight="0.13948497" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.10794045" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" id="Web" order="7" sideWeight="0.5019108" side_tool="true" visible="true" weight="0.13662376" />
+      <window_info id="Web" order="7" sideWeight="0.5044586" side_tool="true" visible="true" weight="0.13948497" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
@@ -284,23 +312,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CalculateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CalculateServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cs472/mum/edu/CalculatorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -322,6 +334,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
