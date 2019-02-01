@@ -7,31 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b25e2-5adb-4dd9-99bd-0f265c01fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberquiz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/console/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/model/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cs472/mum/edu/model/QuizTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/number-quiz.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/number-quiz/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/number-quiz/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/number-quiz/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/numberquiz.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../beeradviser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beeradviser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -126,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -476,8 +452,8 @@
       <item itemvalue="JUnit.QuizTest.testGetNumberQuestions" />
       <item itemvalue="JUnit.QuizTest.testGetNumberCorrect" />
       <item itemvalue="JUnit.QuizTest" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.37" />
       <item itemvalue="JUnit.QuizTest.testIsCorrect" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.37" />
     </list>
     <recent_temporary>
       <list>
@@ -501,6 +477,7 @@
       <updated>1548967943995</updated>
       <workItem from="1548967948783" duration="20869000" />
       <workItem from="1549034184004" duration="4812000" />
+      <workItem from="1549050157094" duration="368000" />
     </task>
     <servers />
   </component>
@@ -537,23 +514,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25681000" />
+    <option name="totallyTimeSpent" value="26049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69299364" visible="true" weight="0.1881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6912522" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.30700636" side_tool="true" visible="true" weight="0.1881259" />
+      <window_info id="Web" order="7" sideWeight="0.30874786" side_tool="true" visible="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25732484" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25732484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19363058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
