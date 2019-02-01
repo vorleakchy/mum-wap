@@ -2,46 +2,47 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="numberquiz:war" />
+      <artifact name="number-quiz:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b25e2-5adb-4dd9-99bd-0f265c01fac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberquiz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/console/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/model/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cs472/mum/edu/model/QuizTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/number-quiz/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cs472/mum/edu/model/QuizTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/numberquiz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/console/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/web/QuizServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/test/java/cs472/mum/edu/model/QuizTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/test-classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/test-classes/cs472/mum/edu/model/QuizTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +53,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,8 +109,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cs472/mum/edu/model/QuizTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java" />
       </list>
     </option>
   </component>
@@ -125,8 +139,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberquiz_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberquiz_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -140,6 +199,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,10 +310,9 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="numberquiz:war">
+        <artifact name="number-quiz:war">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
@@ -319,6 +378,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="numberquiz:war" />
+          <artifact name="number-quiz:war" />
         </option>
       </method>
     </configuration>
@@ -415,7 +475,8 @@
       <updated>1548967943995</updated>
       <workItem from="1548967948783" duration="20869000" />
       <workItem from="1549034184004" duration="4812000" />
-      <workItem from="1549050157094" duration="612000" />
+      <workItem from="1549050157094" duration="368000" />
+      <workItem from="1549050844069" duration="543000" />
     </task>
     <servers />
   </component>
@@ -452,22 +513,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26293000" />
+    <option name="totallyTimeSpent" value="26592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6917198" visible="true" weight="0.19027181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68953687" visible="true" weight="0.19027181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.30828026" side_tool="true" visible="true" weight="0.19027181" />
+      <window_info id="Web" order="7" sideWeight="0.31046313" side_tool="true" visible="true" weight="0.19027181" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25732484" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25732484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19363058" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs472/mum/edu/console/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -616,8 +667,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="231">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs472/mum/edu/web/QuizServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

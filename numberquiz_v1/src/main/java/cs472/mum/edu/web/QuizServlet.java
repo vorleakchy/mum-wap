@@ -85,7 +85,7 @@ public class QuizServlet extends HttpServlet {
         out.print("<p>Guess the next number in the sequence! ");
         out.print(currQuest + "</p>");
 
-        out.print("<p>Your answer:<input type='text' name='txtAnswer' value='' class='form-control' required autofocus /></p> ");
+        out.print("<p>Your answer:<input type='text' name='txtAnswer' value='' class='form-control' autofocus /></p> ");
 
         /* if incorrect, then print out error message */
         if (error && (answer != null)) {  //REFACTOR?-- assumes answer null only when first open page

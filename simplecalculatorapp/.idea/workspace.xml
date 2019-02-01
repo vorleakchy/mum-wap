@@ -7,8 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650bc5bc-204c-48b5-ad52-58b0a649804e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz.war" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz/target/number-quiz.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/numberquiz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/console/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/java/cs472/mum/edu/web/QuizServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/src/test/java/cs472/mum/edu/model/QuizTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/console/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/number-quiz/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/test-classes/META-INF/numberquiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz/target/test-classes/cs472/mum/edu/model/QuizTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
