@@ -18,7 +18,6 @@
 </head>
 <body>
 
-<% Quiz quiz = (Quiz)session.getAttribute("quiz"); %>
 <% String answer = (String)request.getAttribute("answer"); %>
 <% boolean error = (boolean)request.getAttribute("error"); %>
 <% String errorAgeMsg = (String)request.getAttribute("errorAgeMsg"); %>
@@ -29,7 +28,7 @@
         <p>
             Your age:
             <% if (session.getAttribute("age") != null && errorAgeMsg == null) { %>
-                <%= session.getAttribute("age") %>
+                ${age}
             <% } else { %>
                 <input type='text' name='txtAge' value='' class='form-control' autocomplete='off' />
             <% } %>
