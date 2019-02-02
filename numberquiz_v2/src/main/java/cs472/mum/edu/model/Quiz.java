@@ -4,13 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Quiz {
-    private List<Question> questions;
+    private List<Question> questions = new ArrayList<>();
     private int currentQuestionIndex = 0;
-    private int currentScore = 0;
+    private int numCorrect = 0;
 
     public Quiz() {
-        this.questions = new ArrayList<>();
-        loadQuestions();
+        questions.add(new Question("[3, 1, 4, 1, 5]", "9"));
+        questions.add(new Question("[1, 1, 2, 3, 5]", "8"));
+//        questions.add(new Question("[1, 4, 9, 16, 25]", "36"));
+//        questions.add(new Question("[2, 3, 5, 7, 11]", "13"));
+//        questions.add(new Question("[1 2 4 8 16]", "32"));
     }
 
     public int getNumQuestions() {
@@ -18,7 +21,7 @@ public class Quiz {
     }
 
     public int getNumCorrect() {
-        return currentScore;
+        return numCorrect;
     }
 
     public Question getCurrentQuestion() {
@@ -37,25 +40,12 @@ public class Quiz {
         if (currentQuestionIndex < getNumQuestions() - 1)
             currentQuestionIndex++;
 
-        if (currentScore < getNumQuestions())
-            currentScore++;
+        if (numCorrect < getNumQuestions())
+            numCorrect++;
     }
 
     public void reset() {
         currentQuestionIndex = 0;
-        currentScore = 0;
-    }
-
-    private void loadQuestions() {
-        Question q1 = new Question("[3, 1, 4, 1, 5, ? ]", "9");
-        Question q2 = new Question("[1, 1, 2, 3, 5, ? ]", "8");
-//        Question q3 = new Question("[1, 4, 9, 16, 25, ? ]", "36");
-//        Question q4 = new Question("[2, 3, 5, 7, 11, ? ]", "13");
-//        Question q5 = new Question("[1, 2, 4, 8, 16, ? ]", "32");
-        questions.add(q1);
-        questions.add(q2);
-//        questions.add(q3);
-//        questions.add(q4);
-//        questions.add(q5);
+        numCorrect = 0;
     }
 }
