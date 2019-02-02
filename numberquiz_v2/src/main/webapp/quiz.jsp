@@ -40,12 +40,13 @@
             </div>
         <% } %>
 
-        <p>Your current score is: ${quiz.numCorrect}</p>
+        <p>Your current score is: ${quiz.score}</p>
+        <p>Attempt: ${quiz.attemptCount} / 3</p>
         <p>Guess the next number in the sequence!</p>
         <p>${quiz.currentQuestion.question}</p>
         <p>
             Your answer:
-            <input type='text' name='txtAnswer' value='' class='form-control' autocomplete='off' />
+            <input type='text' name='txtAnswer' value='${correctAnswer}' class='form-control' autocomplete='off' />
         </p>
 
         <% if (error && (answer != null)) { %>

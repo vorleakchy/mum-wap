@@ -1,5 +1,6 @@
 package cs472.mum.edu.web;
 
+import cs472.mum.edu.model.Question;
 import cs472.mum.edu.model.Quiz;
 
 import javax.servlet.RequestDispatcher;
@@ -29,6 +30,7 @@ public class QuizServlet extends HttpServlet {
 
         String btnRestart = request.getParameter("btnRestart");
         String answer = request.getParameter("txtAnswer");
+        String correctAnswer = "";
         int age;
         String errorAgeMsg = null;
 
@@ -63,13 +65,18 @@ public class QuizServlet extends HttpServlet {
             quiz.reset();
         }
 
-        if (quiz.getNumCorrect() == quiz.getNumQuestions()) {
+        if (quiz.isOver()) {
             quizOver.forward(request, response);
+        }
+
+        if (quiz.getAttemptCount() == Quiz.MAX_ATTEMPT_COUNT) {
+            correctAnswer = quiz.getCurrentQuestion().getAnswer();
         }
 
         request.setAttribute("errorAgeMsg", errorAgeMsg);
         request.setAttribute("error", error);
         request.setAttribute("answer", answer);
+        request.setAttribute("correctAnswer", correctAnswer);
         quizView.forward(request, response);
     }
 }
