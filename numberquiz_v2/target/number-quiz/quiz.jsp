@@ -9,8 +9,11 @@
 <%@ page isELIgnored="false" %>
 <html>
 <head>
-    <link href='css/bootstrap.min.css' type='text/css' rel='stylesheet'>
+    <link href='https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css' type='text/css' rel='stylesheet'>
     <link href='css/style.css' type='text/css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascripts/quiz.js"></script>
     <title>NumberQuiz</title>
 </head>
 <body>
@@ -35,9 +38,9 @@
             <p style='color:red'>Your last answer was not correct! Please try again</p>
         <% } %>
 
-
         <input type='submit' name='btnNext' class='btn btn-lg btn-primary btn-block' value='Next' />
-        <input type='submit' name='btnRestart' class='btn btn-secondary btn-lg btn-block' value='Restart' />
+        <button type="button" class="btn btn-lg btn-secondary btn-block" data-toggle="popover" title="Hint!" data-content="${quiz.currentQuestion.hint}">Hint?</button>
+        <input type='submit' name='btnRestart' class='btn btn-outline-secondary btn-lg btn-block' value='Restart' />
     </div>
 </form>
 </body>

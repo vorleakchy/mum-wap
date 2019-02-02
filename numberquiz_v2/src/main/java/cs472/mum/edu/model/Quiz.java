@@ -9,11 +9,11 @@ public class Quiz {
     private int numCorrect = 0;
 
     public Quiz() {
-        questions.add(new Question("[3, 1, 4, 1, 5]", "9"));
-        questions.add(new Question("[1, 1, 2, 3, 5]", "8"));
-//        questions.add(new Question("[1, 4, 9, 16, 25]", "36"));
-//        questions.add(new Question("[2, 3, 5, 7, 11]", "13"));
-//        questions.add(new Question("[1 2 4 8 16]", "32"));
+        questions.add(new Question("[3, 1, 4, 1, 5]", "9", "PI"));
+        questions.add(new Question("[1, 1, 2, 3, 5]", "8", "Fibonacci"));
+//        questions.add(new Question("[1, 4, 9, 16, 25]", "36", "Self Multiply"));
+//        questions.add(new Question("[2, 3, 5, 7, 11]", "13", "Prime"));
+//        questions.add(new Question("[1 2 4 8 16]", "32", "n x 2"));
     }
 
     public int getNumQuestions() {

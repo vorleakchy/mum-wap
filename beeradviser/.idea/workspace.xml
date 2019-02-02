@@ -7,23 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36ac2a11-b3c7-4db3-9452-489c64664bab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/quiz.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/quiz_over.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/model/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/model/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/web/QuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/java/cs472/mum/edu/web/QuizServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/quiz.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/src/main/webapp/quiz.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/model/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/classes/cs472/mum/edu/web/QuizServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz.war" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/model/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/web/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/WEB-INF/classes/cs472/mum/edu/web/QuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simplecalculatorapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/quiz.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../numberquiz_v2/target/number-quiz/quiz.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="646">
+              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -244,7 +240,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549067167325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549072308357" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -390,7 +386,7 @@
       <workItem from="1548869218880" duration="6213000" />
       <workItem from="1548973099186" duration="2318000" />
       <workItem from="1549034186183" duration="163000" />
-      <workItem from="1549054104656" duration="2048000" />
+      <workItem from="1549054104656" duration="3190000" />
     </task>
     <servers />
   </component>
@@ -409,10 +405,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12083000" />
+    <option name="totallyTimeSpent" value="13225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49426752" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="646">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
