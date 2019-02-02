@@ -21,21 +21,38 @@
 <% Quiz quiz = (Quiz)session.getAttribute("quiz"); %>
 <% String answer = (String)request.getAttribute("answer"); %>
 <% boolean error = (boolean)request.getAttribute("error"); %>
+<% String errorAgeMsg = (String)request.getAttribute("errorAgeMsg"); %>
 
 <form method='get' class='form-quiz'>
     <div class='text-center mb-4'>
         <h3 class='h3 mb-3 font-weight-normal'>Have fun with NumberQuiz!</h3>
+        <p>
+            Your age:
+            <% if (session.getAttribute("age") != null && errorAgeMsg == null) { %>
+                <%= session.getAttribute("age") %>
+            <% } else { %>
+                <input type='text' name='txtAge' value='' class='form-control' autocomplete='off' />
+            <% } %>
+        </p>
+
+        <% if (errorAgeMsg != null) { %>
+            <div class="alert alert-danger" role="alert">
+                ${errorAgeMsg}
+            </div>
+        <% } %>
+
         <p>Your current score is: ${quiz.numCorrect}</p>
-        </br></br>
         <p>Guess the next number in the sequence!</p>
         <p>${quiz.currentQuestion.question}</p>
         <p>
             Your answer:
-            <input type='text' name='txtAnswer' value='' class='form-control' autofocus autocomplete='off' />
+            <input type='text' name='txtAnswer' value='' class='form-control' autocomplete='off' />
         </p>
 
         <% if (error && (answer != null)) { %>
-            <p style='color:red'>Your last answer was not correct! Please try again</p>
+            <div class="alert alert-danger" role="alert">
+                Your last answer was not correct! Please try again
+            </div>
         <% } %>
 
         <input type='submit' name='btnNext' class='btn btn-lg btn-primary btn-block' value='Next' />

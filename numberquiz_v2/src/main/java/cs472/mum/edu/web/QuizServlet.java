@@ -29,6 +29,24 @@ public class QuizServlet extends HttpServlet {
 
         String btnRestart = request.getParameter("btnRestart");
         String answer = request.getParameter("txtAnswer");
+        int age;
+        String errorAgeMsg = null;
+
+        try {
+            String txtAge = request.getParameter("txtAge");
+
+            if (txtAge != null) {
+                age = Integer.parseInt(txtAge);
+
+                if (age >= 4 && age <= 100) {
+                    session.setAttribute("age", age);
+                } else {
+                    errorAgeMsg = "the number must be within this range";
+                }
+            }
+        } catch(Exception e) {
+            errorAgeMsg = "this field is required and they must enter an integer";
+        }
 
         RequestDispatcher quizView = request.getRequestDispatcher("quiz.jsp");
         RequestDispatcher quizOver = request.getRequestDispatcher("quiz_over.jsp");
@@ -49,6 +67,7 @@ public class QuizServlet extends HttpServlet {
             quizOver.forward(request, response);
         }
 
+        request.setAttribute("errorAgeMsg", errorAgeMsg);
         request.setAttribute("error", error);
         request.setAttribute("answer", answer);
         quizView.forward(request, response);

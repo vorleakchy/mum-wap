@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>NumberQuiz is over</title>
-    <link href='css/bootstrap.min.css' type='text/css' rel='stylesheet'>
+    <link href='https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css' type='text/css' rel='stylesheet'>
     <link href='css/style.css' type='text/css' rel='stylesheet'>
 </head>
 <body>
