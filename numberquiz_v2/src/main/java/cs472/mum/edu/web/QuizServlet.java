@@ -55,7 +55,10 @@ public class QuizServlet extends HttpServlet {
 
         boolean error = true;
 
-        if (answer != null && quiz.isCorrect(answer)) {
+
+        if (quiz.getAttemptCount() == Quiz.MAX_ATTEMPT_COUNT) {
+            correctAnswer = quiz.getCurrentQuestion().getAnswer();
+        } else if (answer != null && quiz.isCorrect(answer)) {
             error = false;
             quiz.scoreAnswer();
         }
@@ -67,10 +70,6 @@ public class QuizServlet extends HttpServlet {
 
         if (quiz.isOver()) {
             quizOver.forward(request, response);
-        }
-
-        if (quiz.getAttemptCount() == Quiz.MAX_ATTEMPT_COUNT) {
-            correctAnswer = quiz.getCurrentQuestion().getAnswer();
         }
 
         request.setAttribute("errorAgeMsg", errorAgeMsg);

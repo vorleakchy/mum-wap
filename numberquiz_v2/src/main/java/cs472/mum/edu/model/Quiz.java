@@ -28,7 +28,7 @@ public class Quiz {
     }
 
     public Question getCurrentQuestion() {
-        return questions.get(getCurrentQuestionIndex());
+        return questions.get(currentQuestionIndex);
     }
 
     public int getCurrentQuestionIndex() {
@@ -47,21 +47,20 @@ public class Quiz {
     }
 
     public void scoreAnswer() {
-        if (numCorrect < getNumQuestions()) {
-            numCorrect++;
+        if (!canAttempt()) return;
 
-            int attemptCount = getAttemptCount();
+        int attemptCount = getAttemptCount();
 
-            if (attemptCount == 1) {
-                score += 10;
-            } else if (attemptCount == 2) {
-                score += 5;
-            } else if (attemptCount == 3) {
-                score += 2;
-            }
+        if (attemptCount == 1) {
+            score += 10;
+        } else if (attemptCount == 2) {
+            score += 5;
+        } else if (attemptCount == 3) {
+            score += 2;
         }
 
-        attemptCount = 0;
+        numCorrect++;
+        this.attemptCount = 0;
         moveToNextQuestion();
     }
 
@@ -85,7 +84,7 @@ public class Quiz {
     }
 
     public void moveToNextQuestion() {
-        if (currentQuestionIndex < getNumQuestions() - 1) {
+        if (hasNextQuestion()) {
             currentQuestionIndex++;
             attemptCount = 0;
         }
@@ -96,10 +95,18 @@ public class Quiz {
     }
 
     public boolean isOver() {
-        if (currentQuestionIndex == questions.size() - 1 && !canAttempt()) {
+        if (isLastQuestion() && !canAttempt()) {
             return true;
         } else {
             return false;
         }
+    }
+
+    private boolean hasNextQuestion() {
+        return currentQuestionIndex < getNumQuestions();
+    }
+
+    private boolean isLastQuestion() {
+        return currentQuestionIndex == getNumQuestions() - 1;
     }
 }
