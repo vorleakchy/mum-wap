@@ -1,0 +1,7 @@
+main {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+}

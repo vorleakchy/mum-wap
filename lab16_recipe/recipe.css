@@ -1,0 +1,23 @@
+#main ul {
+	margin: auto;
+	width: 300px;
+	text-align: left;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 30pt;
+}
+
+img {
+	height: 200px;
+}
+
+#main {
+	text-align: center;
+}
+
+#recipes {
+	text-align: center;
+	margin-bottom: 20px;
+}
